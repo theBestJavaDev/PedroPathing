@@ -48,7 +48,7 @@ class KotlinTeleOp : LinearOpMode() {
     private lateinit var headingLock: HeadingLockHandler
     private lateinit var mechanisms: MechanismStateMachine
 
-    private var lastOptionsState = false
+    private var lastOptionsState = false//?
 
     // --- Stick Drift Filtering Variables ---
     private var filterX = 0.0
